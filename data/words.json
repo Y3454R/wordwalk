@@ -203,6 +203,204 @@
           "sentence": "The team’s performance was woeful in the match."
         }
       ]
+    },
+    {
+      "id": 21,
+      "name": "Set 21",
+      "words": [
+        {
+          "id": 1,
+          "word": "abject",
+          "synonym": "miserable",
+          "sentence": "He lived in abject poverty all his life."
+        },
+        {
+          "id": 2,
+          "word": "amicable",
+          "synonym": "friendly",
+          "sentence": "They reached an amicable agreement after the discussion."
+        },
+        {
+          "id": 3,
+          "word": "animosity",
+          "synonym": "hostility",
+          "sentence": "There was deep animosity between the rival teams."
+        },
+        {
+          "id": 4,
+          "word": "aver",
+          "synonym": "assert",
+          "sentence": "She averred that she had completed the assignment."
+        },
+        {
+          "id": 5,
+          "word": "barrage",
+          "synonym": "onslaught",
+          "sentence": "The army faced a barrage of artillery fire."
+        },
+        {
+          "id": 6,
+          "word": "cathartic",
+          "synonym": "purging",
+          "sentence": "Writing in her journal was a cathartic experience."
+        },
+        {
+          "id": 7,
+          "word": "decipher",
+          "synonym": "decode",
+          "sentence": "He tried to decipher the encrypted message."
+        },
+        {
+          "id": 8,
+          "word": "delusion",
+          "synonym": "misbelief",
+          "sentence": "He was under the delusion that he could win easily."
+        },
+        {
+          "id": 9,
+          "word": "dispense",
+          "synonym": "distribute",
+          "sentence": "The machine can dispense snacks and drinks."
+        },
+        {
+          "id": 10,
+          "word": "dispense",
+          "synonym": "do without",
+          "sentence": "We can dispense with formalities in this meeting."
+        },
+        {
+          "id": 11,
+          "word": "eloquent",
+          "synonym": "articulate",
+          "sentence": "Her speech was eloquent and persuasive."
+        },
+        {
+          "id": 12,
+          "word": "enthrall",
+          "synonym": "captivate",
+          "sentence": "The magician's performance enthralled the audience."
+        },
+        {
+          "id": 13,
+          "word": "eradicate",
+          "synonym": "eliminate",
+          "sentence": "The campaign aims to eradicate illiteracy."
+        },
+        {
+          "id": 14,
+          "word": "fledgling",
+          "synonym": "beginner",
+          "sentence": "The fledgling startup is showing promising growth."
+        },
+        {
+          "id": 15,
+          "word": "fortitude",
+          "synonym": "courage",
+          "sentence": "She showed great fortitude during the crisis."
+        },
+        {
+          "id": 16,
+          "word": "fortuitous",
+          "synonym": "lucky",
+          "sentence": "It was fortuitous that they met at the cafe."
+        },
+        {
+          "id": 17,
+          "word": "goad",
+          "synonym": "provoke",
+          "sentence": "He tried to goad his friend into joining the race."
+        },
+        {
+          "id": 18,
+          "word": "imminent",
+          "synonym": "impending",
+          "sentence": "The storm is imminent, so we should take shelter."
+        },
+        {
+          "id": 19,
+          "word": "incontrovertible",
+          "synonym": "undeniable",
+          "sentence": "The evidence was incontrovertible."
+        },
+        {
+          "id": 20,
+          "word": "itinerant",
+          "synonym": "traveling",
+          "sentence": "The itinerant worker moved from city to city."
+        },
+        {
+          "id": 21,
+          "word": "magnanimous",
+          "synonym": "generous",
+          "sentence": "She was magnanimous in forgiving her enemies."
+        },
+        {
+          "id": 22,
+          "word": "meritorious",
+          "synonym": "praiseworthy",
+          "sentence": "He received an award for his meritorious service."
+        },
+        {
+          "id": 23,
+          "word": "mutiny",
+          "synonym": "rebellion",
+          "sentence": "The sailors staged a mutiny against the captain."
+        },
+        {
+          "id": 24,
+          "word": "paradoxical",
+          "synonym": "contradictory",
+          "sentence": "His behavior was paradoxical, both kind and cruel."
+        },
+        {
+          "id": 25,
+          "word": "perseverance",
+          "synonym": "persistence",
+          "sentence": "Her perseverance helped her complete the marathon."
+        },
+        {
+          "id": 26,
+          "word": "render",
+          "synonym": "provide",
+          "sentence": "The service rendered was exceptional."
+        },
+        {
+          "id": 27,
+          "word": "render",
+          "synonym": "depict",
+          "sentence": "The artist rendered the landscape beautifully."
+        },
+        {
+          "id": 28,
+          "word": "repertoire",
+          "synonym": "collection",
+          "sentence": "The pianist has a vast repertoire of classical pieces."
+        },
+        {
+          "id": 29,
+          "word": "resilient",
+          "synonym": "tough",
+          "sentence": "Children are often resilient in difficult situations."
+        },
+        {
+          "id": 30,
+          "word": "resolute",
+          "synonym": "determined",
+          "sentence": "She was resolute in achieving her goals."
+        },
+        {
+          "id": 31,
+          "word": "supple",
+          "synonym": "flexible",
+          "sentence": "The gymnast’s body was remarkably supple."
+        },
+        {
+          "id": 32,
+          "word": "valor",
+          "synonym": "bravery",
+          "sentence": "The soldier was awarded for his valor."
+        }
+      ]
     }
   ]
 }
