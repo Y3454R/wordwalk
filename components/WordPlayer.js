@@ -6,6 +6,109 @@ import { Button } from "./ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Progress } from "./ui/progress";
 
+function PlayIcon(props) {
+  return (
+    <svg
+      width="22"
+      height="22"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      aria-hidden="true"
+      {...props}
+    >
+      <path d="M8 5v14l11-7z" />
+    </svg>
+  );
+}
+
+function PauseIcon(props) {
+  return (
+    <svg
+      width="22"
+      height="22"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      aria-hidden="true"
+      {...props}
+    >
+      <path d="M6 5h4v14H6zM14 5h4v14h-4z" />
+    </svg>
+  );
+}
+
+function StopIcon(props) {
+  return (
+    <svg
+      width="22"
+      height="22"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      aria-hidden="true"
+      {...props}
+    >
+      <path d="M6 6h12v12H6z" />
+    </svg>
+  );
+}
+
+function RestartIcon(props) {
+  return (
+    <svg
+      width="22"
+      height="22"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      {...props}
+    >
+      <path d="M21 12a9 9 0 1 1-9-9" />
+      <path d="M21 3v6h-6" />
+    </svg>
+  );
+}
+
+function PrevIcon(props) {
+  return (
+    <svg
+      width="22"
+      height="22"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2.2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      {...props}
+    >
+      <path d="M15 18l-6-6 6-6" />
+    </svg>
+  );
+}
+
+function NextIcon(props) {
+  return (
+    <svg
+      width="22"
+      height="22"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2.2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      {...props}
+    >
+      <path d="M9 6l6 6-6 6" />
+    </svg>
+  );
+}
+
 // Simple helper to sleep between utterances for a natural pause
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -194,7 +297,7 @@ export default function WordPlayer() {
     <div className="mx-auto max-w-xl space-y-4">
       <Card>
         <CardHeader className="flex items-center justify-between">
-          <CardTitle>WordWalk</CardTitle>
+          {/* <CardTitle>WordWalk</CardTitle> */}
           <div className="flex gap-2">
             <select
               aria-label="Select word group"
@@ -228,7 +331,7 @@ export default function WordPlayer() {
             <Progress value={progress} />
           </div>
 
-          <div className="space-y-2 rounded-md border p-4">
+          <div className="space-y-2 rounded-md border p-4 h-60 overflow-y-auto">
             <div className="text-xs uppercase text-muted-foreground">Word</div>
             <div className="text-2xl font-semibold">{current?.word ?? "—"}</div>
             <div className="text-xs uppercase text-muted-foreground pt-3">
@@ -241,30 +344,90 @@ export default function WordPlayer() {
             <div className="text-base">{current?.sentence ?? "—"}</div>
           </div>
 
-          <div className="flex flex-wrap gap-2">
-            {!isPlaying && !isPausedRef.current && (
-              <Button onClick={handlePlay}>Play</Button>
-            )}
-            {isPausedRef.current && (
-              <Button onClick={handleResume}>Resume</Button>
-            )}
-            {isPlaying && (
-              <Button variant="secondary" onClick={handlePause}>
-                Pause
+          <div className="flex flex-col items-center gap-2">
+            <div className="flex items-center gap-2 rounded-md border bg-muted p-2">
+              <Button
+                variant="ghost"
+                size="sm"
+                className="h-12 w-12 p-0"
+                onClick={handlePrev}
+                aria-label="Previous"
+                title="Previous"
+              >
+                <PrevIcon />
               </Button>
-            )}
-            <Button variant="outline" onClick={handleRestart}>
-              Start Over
-            </Button>
-            <Button variant="ghost" onClick={handleStop}>
-              Stop
-            </Button>
-            <Button variant="outline" onClick={handlePrev}>
-              Prev
-            </Button>
-            <Button variant="outline" onClick={handleNext}>
-              Next
-            </Button>
+
+              {!isPlaying && !isPausedRef.current && (
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  className="h-12 w-12 p-0"
+                  onClick={handlePlay}
+                  aria-label="Play"
+                  title="Play"
+                >
+                  <PlayIcon />
+                </Button>
+              )}
+              {isPausedRef.current && (
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  className="h-12 w-12 p-0"
+                  onClick={handleResume}
+                  aria-label="Resume"
+                  title="Resume"
+                >
+                  <PlayIcon />
+                </Button>
+              )}
+              {isPlaying && (
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  className="h-12 w-12 p-0"
+                  onClick={handlePause}
+                  aria-label="Pause"
+                  title="Pause"
+                >
+                  <PauseIcon />
+                </Button>
+              )}
+
+              <Button
+                variant="ghost"
+                size="sm"
+                className="h-12 w-12 p-0"
+                onClick={handleNext}
+                aria-label="Next"
+                title="Next"
+              >
+                <NextIcon />
+              </Button>
+            </div>
+
+            <div className="flex items-center gap-2 rounded-md border bg-muted p-2">
+              <Button
+                variant="ghost"
+                size="sm"
+                className="h-12 w-12 p-0"
+                onClick={handleRestart}
+                aria-label="Start Over"
+                title="Start Over"
+              >
+                <RestartIcon />
+              </Button>
+              <Button
+                variant="ghost"
+                size="sm"
+                className="h-12 w-12 p-0"
+                onClick={handleStop}
+                aria-label="Stop"
+                title="Stop"
+              >
+                <StopIcon />
+              </Button>
+            </div>
           </div>
 
           {/* Notes for readers:
