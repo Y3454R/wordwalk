@@ -1,0 +1,208 @@
+{
+  "groups": [
+    {
+      "id": 20,
+      "name": "Set 20",
+      "words": [
+        {
+          "id": 1,
+          "word": "abreast",
+          "synonym": "up-to-date",
+          "sentence": "I stay abreast of tech news to never fall behind."
+        },
+        {
+          "id": 2,
+          "word": "confound",
+          "synonym": "baffle",
+          "sentence": "The magician’s trick confounded everyone in the audience."
+        },
+        {
+          "id": 3,
+          "word": "digression",
+          "synonym": "aside",
+          "sentence": "His long digression about movies made the lecture interesting."
+        },
+        {
+          "id": 4,
+          "word": "discrepancy",
+          "synonym": "difference",
+          "sentence": "There is a discrepancy between your report and the data."
+        },
+        {
+          "id": 5,
+          "word": "duplicitous",
+          "synonym": "deceitful",
+          "sentence": "The spy was duplicitous, hiding his true intentions."
+        },
+        {
+          "id": 6,
+          "word": "expedient",
+          "synonym": "practical",
+          "sentence": "Using online forms is more expedient than printing papers."
+        },
+        {
+          "id": 7,
+          "word": "fabricate",
+          "synonym": "invent",
+          "sentence": "He fabricated an excuse to skip the meeting."
+        },
+        {
+          "id": 8,
+          "word": "glum",
+          "synonym": "sullen",
+          "sentence": "She looked glum after hearing the bad news."
+        },
+        {
+          "id": 9,
+          "word": "harbinger",
+          "synonym": "forerunner",
+          "sentence": "The robin is a harbinger of spring."
+        },
+        {
+          "id": 10,
+          "word": "intrinsic",
+          "synonym": "essential",
+          "sentence": "Curiosity is intrinsic to human nature."
+        },
+        {
+          "id": 11,
+          "word": "largesse",
+          "synonym": "generosity",
+          "sentence": "The king’s largesse helped the poor villagers."
+        },
+        {
+          "id": 12,
+          "word": "libertine",
+          "synonym": "hedonist",
+          "sentence": "He lived as a libertine, caring only for pleasure."
+        },
+        {
+          "id": 13,
+          "word": "malfeasance",
+          "synonym": "wrongdoing",
+          "sentence": "The mayor was investigated for malfeasance."
+        },
+        {
+          "id": 14,
+          "word": "manifest",
+          "synonym": "obvious",
+          "sentence": "Her talent was manifest to everyone."
+        },
+        {
+          "id": 15,
+          "word": "manifest",
+          "synonym": "display",
+          "sentence": "He manifested his anger with loud words."
+        },
+        {
+          "id": 16,
+          "word": "minute",
+          "synonym": "tiny",
+          "sentence": "The minute details make the painting realistic."
+        },
+        {
+          "id": 17,
+          "word": "modish",
+          "synonym": "fashionable",
+          "sentence": "She wore a modish outfit to the party."
+        },
+        {
+          "id": 18,
+          "word": "nascent",
+          "synonym": "emerging",
+          "sentence": "The nascent startup showed great promise."
+        },
+        {
+          "id": 19,
+          "word": "perennial",
+          "synonym": "everlasting",
+          "sentence": "His perennial optimism inspired everyone."
+        },
+        {
+          "id": 20,
+          "word": "pious",
+          "synonym": "devout",
+          "sentence": "The pious monk meditated daily."
+        },
+        {
+          "id": 21,
+          "word": "pious",
+          "synonym": "virtuous",
+          "sentence": "She made a pious promise to help the needy."
+        },
+        {
+          "id": 22,
+          "word": "providential",
+          "synonym": "fortunate",
+          "sentence": "It was providential that she found her lost ring."
+        },
+        {
+          "id": 23,
+          "word": "prowess",
+          "synonym": "skill",
+          "sentence": "His prowess in chess amazed his friends."
+        },
+        {
+          "id": 24,
+          "word": "schism",
+          "synonym": "division",
+          "sentence": "The church suffered a schism over doctrinal differences."
+        },
+        {
+          "id": 25,
+          "word": "slander",
+          "synonym": "defame",
+          "sentence": "He was sued for slander after spreading lies."
+        },
+        {
+          "id": 26,
+          "word": "stalwart",
+          "synonym": "loyal",
+          "sentence": "She was a stalwart supporter of the team."
+        },
+        {
+          "id": 27,
+          "word": "supplicate",
+          "synonym": "plead",
+          "sentence": "The villagers supplicated the king for mercy."
+        },
+        {
+          "id": 28,
+          "word": "terse",
+          "synonym": "concise",
+          "sentence": "His terse reply left no room for argument."
+        },
+        {
+          "id": 29,
+          "word": "tirade",
+          "synonym": "rant",
+          "sentence": "The coach gave a tirade after the team lost."
+        },
+        {
+          "id": 30,
+          "word": "universal",
+          "synonym": "global",
+          "sentence": "Music is a universal language."
+        },
+        {
+          "id": 31,
+          "word": "vanquish",
+          "synonym": "defeat",
+          "sentence": "The hero vanquished the villain."
+        },
+        {
+          "id": 32,
+          "word": "woeful",
+          "synonym": "sad",
+          "sentence": "He had a woeful expression at the funeral."
+        },
+        {
+          "id": 33,
+          "word": "woeful",
+          "synonym": "poor",
+          "sentence": "The team’s performance was woeful in the match."
+        }
+      ]
+    }
+  ]
+}
