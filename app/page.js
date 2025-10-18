@@ -22,7 +22,7 @@ export default function Page() {
           </Link>
           <span>·</span>
           <Link
-            href="https://github.com/syeasar/wordwalk"
+            href="https://github.com/y3454r/wordwalk"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1 underline hover:opacity-80"
