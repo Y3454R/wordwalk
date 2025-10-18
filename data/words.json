@@ -803,6 +803,192 @@
           "sentence": "Guards remained vigilant throughout the night."
         }
       ]
+    },
+    {
+      "id": 24,
+      "name": "Set 24",
+      "words": [
+        {
+          "id": 1,
+          "word": "assail",
+          "synonym": "attack",
+          "sentence": "The critics assailed the movie for its weak plot."
+        },
+        {
+          "id": 2,
+          "word": "benevolent",
+          "synonym": "kind",
+          "sentence": "She was known for her benevolent actions in the community."
+        },
+        {
+          "id": 3,
+          "word": "berate",
+          "synonym": "scold",
+          "sentence": "The coach berated the players for their mistakes."
+        },
+        {
+          "id": 4,
+          "word": "buoyant",
+          "synonym": "cheerful",
+          "sentence": "He felt buoyant after receiving the good news."
+        },
+        {
+          "id": 5,
+          "word": "buttress",
+          "synonym": "support",
+          "sentence": "The scientist's findings buttress the theory."
+        },
+        {
+          "id": 6,
+          "word": "condone",
+          "synonym": "overlook",
+          "sentence": "The teacher could not condone cheating."
+        },
+        {
+          "id": 7,
+          "word": "contravene",
+          "synonym": "violate",
+          "sentence": "His actions contravened the company's policies."
+        },
+        {
+          "id": 8,
+          "word": "denounce",
+          "synonym": "criticize",
+          "sentence": "The government denounced the illegal activities."
+        },
+        {
+          "id": 9,
+          "word": "despotic",
+          "synonym": "tyrannical",
+          "sentence": "The despotic ruler imposed strict laws on his people."
+        },
+        {
+          "id": 10,
+          "word": "deviate",
+          "synonym": "diverge",
+          "sentence": "He deviated from the original plan to try a new approach."
+        },
+        {
+          "id": 11,
+          "word": "disinterested",
+          "synonym": "impartial",
+          "sentence": "A judge must remain disinterested when hearing a case."
+        },
+        {
+          "id": 12,
+          "word": "escalate",
+          "synonym": "intensify",
+          "sentence": "Tensions began to escalate after the argument."
+        },
+        {
+          "id": 13,
+          "word": "exorcise",
+          "synonym": "banish",
+          "sentence": "The priest was called to exorcise the spirit from the house."
+        },
+        {
+          "id": 14,
+          "word": "finicky",
+          "synonym": "fussy",
+          "sentence": "The baby is very finicky about what he eats."
+        },
+        {
+          "id": 15,
+          "word": "foil",
+          "synonym": "thwart",
+          "sentence": "The security guard foiled the robbery attempt."
+        },
+        {
+          "id": 16,
+          "word": "intertwined",
+          "synonym": "connected",
+          "sentence": "Their lives were deeply intertwined after years of friendship."
+        },
+        {
+          "id": 17,
+          "word": "inundate",
+          "synonym": "overwhelm",
+          "sentence": "The office was inundated with phone calls after the announcement."
+        },
+        {
+          "id": 18,
+          "word": "ironclad",
+          "synonym": "unbreakable",
+          "sentence": "They had an ironclad contract that could not be broken."
+        },
+        {
+          "id": 19,
+          "word": "jeopardize",
+          "synonym": "endanger",
+          "sentence": "Neglecting safety protocols could jeopardize the project."
+        },
+        {
+          "id": 20,
+          "word": "mercurial",
+          "synonym": "volatile",
+          "sentence": "His mercurial mood swings kept everyone on edge."
+        },
+        {
+          "id": 21,
+          "word": "oblivious",
+          "synonym": "unaware",
+          "sentence": "She was oblivious to the fact that everyone was staring at her."
+        },
+        {
+          "id": 22,
+          "word": "perpetrate",
+          "synonym": "commit",
+          "sentence": "They perpetrated a series of thefts in the city."
+        },
+        {
+          "id": 23,
+          "word": "plaintive",
+          "synonym": "mournful",
+          "sentence": "The plaintive song brought tears to their eyes."
+        },
+        {
+          "id": 24,
+          "word": "poignant",
+          "synonym": "touching",
+          "sentence": "The movie’s ending was poignant and unforgettable."
+        },
+        {
+          "id": 25,
+          "word": "quiescent",
+          "synonym": "inactive",
+          "sentence": "The volcano had been quiescent for decades."
+        },
+        {
+          "id": 26,
+          "word": "reiterate",
+          "synonym": "repeat",
+          "sentence": "The teacher had to reiterate the instructions several times."
+        },
+        {
+          "id": 27,
+          "word": "subside",
+          "synonym": "diminish",
+          "sentence": "The floodwaters began to subside after the rain stopped."
+        },
+        {
+          "id": 28,
+          "word": "subsume",
+          "synonym": "include",
+          "sentence": "These smaller tasks are subsumed under the main project."
+        },
+        {
+          "id": 29,
+          "word": "surmount",
+          "synonym": "overcome",
+          "sentence": "They managed to surmount all the obstacles in their path."
+        },
+        {
+          "id": 30,
+          "word": "tangential",
+          "synonym": "irrelevant",
+          "sentence": "His comments were tangential and didn’t address the main topic."
+        }
+      ]
     }
   ]
 }
