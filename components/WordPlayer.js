@@ -295,6 +295,21 @@ export default function WordPlayer() {
     }
   }, [currentGroup?.words, isPlaying, playCurrent]);
 
+  // Keyboard shortcuts for prev/next
+  useEffect(() => {
+    function onKey(e) {
+      if (e.key === "ArrowLeft") {
+        e.preventDefault();
+        handlePrev();
+      } else if (e.key === "ArrowRight") {
+        e.preventDefault();
+        handleNext();
+      }
+    }
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [handlePrev, handleNext]);
+
   // Reset state when group changes
   useEffect(() => {
     indexRef.current = 0;
