@@ -403,6 +403,198 @@
       ]
     },
     {
+      "id": 22,
+      "name": "Set 22",
+      "words": [
+        {
+          "id": 1,
+          "word": "arresting",
+          "synonym": "captivating",
+          "sentence": "The painting was so arresting that everyone stopped to admire it."
+        },
+        {
+          "id": 2,
+          "word": "chastise",
+          "synonym": "scold",
+          "sentence": "The teacher chastised the students for being late."
+        },
+        {
+          "id": 3,
+          "word": "cumbersome",
+          "synonym": "unwieldy",
+          "sentence": "The old computer system was too cumbersome to use efficiently."
+        },
+        {
+          "id": 4,
+          "word": "economy",
+          "synonym": "thrift",
+          "sentence": "She practiced economy by reusing old materials."
+        },
+        {
+          "id": 5,
+          "word": "elementary",
+          "synonym": "basic",
+          "sentence": "The guide explains the process in elementary terms."
+        },
+        {
+          "id": 6,
+          "word": "embellish",
+          "synonym": "decorate",
+          "sentence": "She embellished her dress with golden threads."
+        },
+        {
+          "id": 7,
+          "word": "embellish",
+          "synonym": "exaggerate",
+          "sentence": "He embellished the story to make it more exciting."
+        },
+        {
+          "id": 8,
+          "word": "euphoric",
+          "synonym": "elated",
+          "sentence": "The team felt euphoric after winning the championship."
+        },
+        {
+          "id": 9,
+          "word": "exonerate",
+          "synonym": "absolve",
+          "sentence": "The evidence helped exonerate the wrongly accused man."
+        },
+        {
+          "id": 10,
+          "word": "extrapolate",
+          "synonym": "infer",
+          "sentence": "Scientists can extrapolate future trends from current data."
+        },
+        {
+          "id": 11,
+          "word": "falter",
+          "synonym": "hesitate",
+          "sentence": "He began to falter when he saw the large audience."
+        },
+        {
+          "id": 12,
+          "word": "fervent",
+          "synonym": "passionate",
+          "sentence": "She is a fervent supporter of environmental protection."
+        },
+        {
+          "id": 13,
+          "word": "foment",
+          "synonym": "instigate",
+          "sentence": "They accused him of trying to foment rebellion."
+        },
+        {
+          "id": 14,
+          "word": "gaffe",
+          "synonym": "blunder",
+          "sentence": "The politician’s gaffe during the debate went viral."
+        },
+        {
+          "id": 15,
+          "word": "heterodox",
+          "synonym": "unorthodox",
+          "sentence": "His heterodox ideas challenged traditional beliefs."
+        },
+        {
+          "id": 16,
+          "word": "histrionic",
+          "synonym": "dramatic",
+          "sentence": "Her histrionic reaction made everyone uncomfortable."
+        },
+        {
+          "id": 17,
+          "word": "implicit",
+          "synonym": "implied",
+          "sentence": "There was an implicit agreement between the two parties."
+        },
+        {
+          "id": 18,
+          "word": "inviolate",
+          "synonym": "untouched",
+          "sentence": "The ancient shrine remained inviolate for centuries."
+        },
+        {
+          "id": 19,
+          "word": "liability",
+          "synonym": "responsibility",
+          "sentence": "The company took full liability for the damages."
+        },
+        {
+          "id": 20,
+          "word": "obstinate",
+          "synonym": "stubborn",
+          "sentence": "The child was too obstinate to admit his mistake."
+        },
+        {
+          "id": 21,
+          "word": "painstaking",
+          "synonym": "meticulous",
+          "sentence": "The artist took painstaking effort to perfect every detail."
+        },
+        {
+          "id": 22,
+          "word": "phlegmatic",
+          "synonym": "calm",
+          "sentence": "He remained phlegmatic even in the face of danger."
+        },
+        {
+          "id": 23,
+          "word": "prodigious",
+          "synonym": "immense",
+          "sentence": "The scientist made prodigious progress in his research."
+        },
+        {
+          "id": 24,
+          "word": "propensity",
+          "synonym": "tendency",
+          "sentence": "He has a natural propensity for leadership."
+        },
+        {
+          "id": 25,
+          "word": "qualm",
+          "synonym": "doubt",
+          "sentence": "She had no qualms about speaking her mind."
+        },
+        {
+          "id": 26,
+          "word": "renege",
+          "synonym": "retract",
+          "sentence": "He reneged on his promise to support the project."
+        },
+        {
+          "id": 27,
+          "word": "stint",
+          "synonym": "term",
+          "sentence": "He completed a short stint as a volunteer teacher."
+        },
+        {
+          "id": 28,
+          "word": "temper",
+          "synonym": "moderate",
+          "sentence": "She tried to temper her criticism with kindness."
+        },
+        {
+          "id": 29,
+          "word": "tentative",
+          "synonym": "uncertain",
+          "sentence": "They made a tentative plan for the weekend."
+        },
+        {
+          "id": 30,
+          "word": "unprecedented",
+          "synonym": "extraordinary",
+          "sentence": "The company experienced unprecedented growth this year."
+        },
+        {
+          "id": 31,
+          "word": "vivacious",
+          "synonym": "lively",
+          "sentence": "Her vivacious personality lit up the entire room."
+        }
+      ]
+    },
+    {
       "id": 23,
       "name": "Set 23",
       "words": [
