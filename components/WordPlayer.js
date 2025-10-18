@@ -5,6 +5,7 @@ import wordsData from "../data/words.json";
 import { Button } from "./ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Progress } from "./ui/progress";
+import { clsx } from "clsx";
 
 function PlayIcon(props) {
   return (
@@ -117,6 +118,7 @@ const RATE_MAP = {
   slow: 0.8,
   medium: 1,
   fast: 1.25,
+  max: 1.5,
 };
 
 export default function WordPlayer() {
@@ -124,6 +126,8 @@ export default function WordPlayer() {
   const [rate, setRate] = useState("medium");
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [reviseMode, setReviseMode] = useState(false);
+  const [isRevealingSynonym, setIsRevealingSynonym] = useState(false);
 
   // Keep stable refs for control across async flow
   const isStoppedRef = useRef(false);
@@ -175,13 +179,17 @@ export default function WordPlayer() {
         // Comments: Each field is a separate utterance for clearer pacing
         await speakText(w.word);
         if (runIdRef.current !== runId) return;
-        await sleep(200);
+        await sleep(reviseMode ? 1000 : 200);
         if (runIdRef.current !== runId) return;
+        if (reviseMode) setIsRevealingSynonym(true);
         await speakText(`synonym: ${w.synonym}`);
+        if (reviseMode) setIsRevealingSynonym(false);
         if (runIdRef.current !== runId) return;
-        await sleep(200);
-        if (runIdRef.current !== runId) return;
-        await speakText(w.sentence);
+        if (!reviseMode) {
+          await sleep(200);
+          if (runIdRef.current !== runId) return;
+          await speakText(w.sentence);
+        }
 
         if (isStoppedRef.current) break;
         // Small pause between words (1–2 seconds)
@@ -189,7 +197,7 @@ export default function WordPlayer() {
       }
       setIsPlaying(false);
     },
-    [currentGroup?.words, speakText]
+    [currentGroup?.words, speakText, reviseMode]
   );
 
   // Start playing from current index
@@ -226,6 +234,19 @@ export default function WordPlayer() {
     isPausedRef.current = false;
     runIdRef.current += 1; // invalidate any running loop
     window.speechSynthesis.cancel();
+    setIsPlaying(false);
+  }, []);
+
+  // Reset to the beginning and stop playback
+  const resetToStart = useCallback(() => {
+    isStoppedRef.current = true;
+    isPausedRef.current = false;
+    runIdRef.current += 1;
+    try {
+      window.speechSynthesis.cancel();
+    } catch {}
+    indexRef.current = 0;
+    setCurrentIndex(0);
     setIsPlaying(false);
   }, []);
 
@@ -282,6 +303,11 @@ export default function WordPlayer() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [groupId]);
 
+  // Reset when mode or rate changes
+  useEffect(() => {
+    resetToStart();
+  }, [reviseMode, rate, resetToStart]);
+
   // Clean up speech on unmount
   useEffect(() => {
     return () => {
@@ -296,9 +322,9 @@ export default function WordPlayer() {
   return (
     <div className="mx-auto max-w-xl space-y-4">
       <Card>
-        <CardHeader className="flex items-center justify-between">
+        <CardHeader className="flex flex-col items-center gap-2">
           {/* <CardTitle>WordWalk</CardTitle> */}
-          <div className="flex gap-2">
+          <div className="flex w-full flex-wrap justify-center gap-2">
             <select
               aria-label="Select word group"
               className="h-10 rounded-md border bg-transparent px-3"
@@ -320,7 +346,45 @@ export default function WordPlayer() {
               <option value="slow">Slow</option>
               <option value="medium">Medium</option>
               <option value="fast">Fast</option>
+              <option value="max">Max</option>
             </select>
+          </div>
+          <div className="flex w-full items-center justify-center gap-3">
+            <span
+              className={clsx(
+                "text-xs font-medium",
+                !reviseMode ? "text-foreground" : "text-muted-foreground"
+              )}
+            >
+              Normal
+            </span>
+            <button
+              type="button"
+              role="switch"
+              aria-checked={reviseMode}
+              onClick={() => setReviseMode((v) => !v)}
+              title={reviseMode ? "Mode: revise" : "Mode: normal"}
+              className={clsx(
+                "relative h-8 w-20 rounded-full border transition-colors focus:outline-none focus:ring-2 focus:ring-ring",
+                reviseMode ? "bg-primary/20" : "bg-muted"
+              )}
+            >
+              <span
+                className={clsx(
+                  "absolute top-1 left-1 h-6 w-6 rounded-full bg-primary transition-transform",
+                  reviseMode && "translate-x-12"
+                )}
+              />
+              <span className="sr-only">Toggle revise mode</span>
+            </button>
+            <span
+              className={clsx(
+                "text-xs font-medium",
+                reviseMode ? "text-foreground" : "text-muted-foreground"
+              )}
+            >
+              Revise
+            </span>
           </div>
         </CardHeader>
         <CardContent className="space-y-4">
@@ -337,11 +401,24 @@ export default function WordPlayer() {
             <div className="text-xs uppercase text-muted-foreground pt-3">
               Synonym
             </div>
-            <div className="text-lg">{current?.synonym ?? "—"}</div>
-            <div className="text-xs uppercase text-muted-foreground pt-3">
-              Sentence
+            <div
+              className={clsx(
+                "text-lg transition-all",
+                reviseMode &&
+                  !isRevealingSynonym &&
+                  "select-none filter blur-sm"
+              )}
+            >
+              {current?.synonym ?? "—"}
             </div>
-            <div className="text-base">{current?.sentence ?? "—"}</div>
+            {!reviseMode && (
+              <>
+                <div className="text-xs uppercase text-muted-foreground pt-3">
+                  Sentence
+                </div>
+                <div className="text-base">{current?.sentence ?? "—"}</div>
+              </>
+            )}
           </div>
 
           <div className="flex flex-col items-center gap-2">
