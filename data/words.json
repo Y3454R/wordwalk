@@ -989,6 +989,216 @@
           "sentence": "His comments were tangential and didn’t address the main topic."
         }
       ]
+    },
+    {
+      "id": 25,
+      "name": "Set 25",
+      "words": [
+        {
+          "id": 1,
+          "word": "adept",
+          "synonym": "skilled",
+          "sentence": "She is adept at solving complex mathematical problems."
+        },
+        {
+          "id": 2,
+          "word": "adverse",
+          "synonym": "unfavorable",
+          "sentence": "The hikers faced adverse weather conditions."
+        },
+        {
+          "id": 3,
+          "word": "appropriate",
+          "synonym": "suitable",
+          "sentence": "It’s important to wear appropriate attire to a wedding."
+        },
+        {
+          "id": 4,
+          "word": "appropriate",
+          "synonym": "take",
+          "sentence": "The government may appropriate funds for public projects."
+        },
+        {
+          "id": 5,
+          "word": "archetype",
+          "synonym": "model",
+          "sentence": "She is the archetype of a modern entrepreneur."
+        },
+        {
+          "id": 6,
+          "word": "articulate",
+          "synonym": "expressive",
+          "sentence": "He is very articulate and conveys his ideas clearly."
+        },
+        {
+          "id": 7,
+          "word": "auspicious",
+          "synonym": "favorable",
+          "sentence": "The clear sky was an auspicious start to the festival."
+        },
+        {
+          "id": 8,
+          "word": "bereft",
+          "synonym": "deprived",
+          "sentence": "He was bereft of hope after the tragic event."
+        },
+        {
+          "id": 9,
+          "word": "captious",
+          "synonym": "critical",
+          "sentence": "Her captious remarks annoyed everyone at the meeting."
+        },
+        {
+          "id": 10,
+          "word": "conclusive",
+          "synonym": "decisive",
+          "sentence": "The DNA evidence was conclusive in the investigation."
+        },
+        {
+          "id": 11,
+          "word": "conspire",
+          "synonym": "plot",
+          "sentence": "The officials conspired to cover up the scandal."
+        },
+        {
+          "id": 12,
+          "word": "delineate",
+          "synonym": "describe",
+          "sentence": "The map delineates the borders of the region clearly."
+        },
+        {
+          "id": 13,
+          "word": "disentangle",
+          "synonym": "unravel",
+          "sentence": "It took hours to disentangle the complex problem."
+        },
+        {
+          "id": 14,
+          "word": "exhort",
+          "synonym": "urge",
+          "sentence": "The teacher exhorted the students to study diligently."
+        },
+        {
+          "id": 15,
+          "word": "frailty",
+          "synonym": "weakness",
+          "sentence": "The old man’s frailty made it hard for him to walk."
+        },
+        {
+          "id": 16,
+          "word": "grievance",
+          "synonym": "complaint",
+          "sentence": "The workers voiced their grievance over unfair pay."
+        },
+        {
+          "id": 17,
+          "word": "harangue",
+          "synonym": "rant",
+          "sentence": "He delivered a long harangue about poor customer service."
+        },
+        {
+          "id": 18,
+          "word": "ploy",
+          "synonym": "tactic",
+          "sentence": "It was a clever ploy to distract the opponent."
+        },
+        {
+          "id": 19,
+          "word": "poise",
+          "synonym": "composure",
+          "sentence": "She maintained her poise even under pressure."
+        },
+        {
+          "id": 20,
+          "word": "pomposity",
+          "synonym": "arrogance",
+          "sentence": "His pomposity irritated his colleagues."
+        },
+        {
+          "id": 21,
+          "word": "proxy",
+          "synonym": "substitute",
+          "sentence": "She voted by proxy since she could not attend the meeting."
+        },
+        {
+          "id": 22,
+          "word": "relent",
+          "synonym": "yield",
+          "sentence": "The storm did not relent for hours."
+        },
+        {
+          "id": 23,
+          "word": "relent",
+          "synonym": "soften",
+          "sentence": "He finally relented and allowed his child to stay out late."
+        },
+        {
+          "id": 24,
+          "word": "rhetoric",
+          "synonym": "speech",
+          "sentence": "The politician’s rhetoric was persuasive but shallow."
+        },
+        {
+          "id": 25,
+          "word": "rigor",
+          "synonym": "strictness",
+          "sentence": "The professor’s class is known for its rigor."
+        },
+        {
+          "id": 26,
+          "word": "sparse",
+          "synonym": "scant",
+          "sentence": "The vegetation was sparse in the desert."
+        },
+        {
+          "id": 27,
+          "word": "steadfast",
+          "synonym": "steady",
+          "sentence": "She remained steadfast in her beliefs."
+        },
+        {
+          "id": 28,
+          "word": "suspect",
+          "synonym": "questionable",
+          "sentence": "The data in the report looked suspect, so the manager double-checked it."
+        },
+        {
+          "id": 29,
+          "word": "tedious",
+          "synonym": "boring",
+          "sentence": "Filing paperwork is a tedious task."
+        },
+        {
+          "id": 30,
+          "word": "vitality",
+          "synonym": "energy",
+          "sentence": "Her vitality made her the life of the party."
+        },
+        {
+          "id": 31,
+          "word": "whimsical",
+          "synonym": "playful",
+          "sentence": "The artist’s paintings are whimsical and fun."
+        },
+        {
+          "id": 32,
+          "word": "whimsical",
+          "synonym": "capricious",
+          "sentence": "Her whimsical decisions often surprised everyone at the team meetings."
+        },
+        {
+          "id": 33,
+          "word": "yield",
+          "synonym": "produce",
+          "sentence": "The farm yields fresh vegetables every season."
+        },
+        {
+          "id": 34,
+          "word": "yield",
+          "synonym": "surrender",
+          "sentence": "Despite his initial resistance, he eventually yielded to their requests."
+        }
+      ]
     }
   ]
 }
