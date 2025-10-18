@@ -1027,7 +1027,7 @@
         {
           "id": 6,
           "word": "articulate",
-          "synonym": "expressive",
+          "synonym": "eloquent",
           "sentence": "He is very articulate and conveys his ideas clearly."
         },
         {
@@ -1093,7 +1093,7 @@
         {
           "id": 17,
           "word": "harangue",
-          "synonym": "rant",
+          "synonym": "diatribe",
           "sentence": "He delivered a long harangue about poor customer service."
         },
         {
@@ -1129,7 +1129,7 @@
         {
           "id": 23,
           "word": "relent",
-          "synonym": "soften",
+          "synonym": "abate",
           "sentence": "He finally relented and allowed his child to stay out late."
         },
         {
