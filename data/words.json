@@ -401,6 +401,216 @@
           "sentence": "The soldier was awarded for his valor."
         }
       ]
+    },
+    {
+      "id": 23,
+      "name": "Set 23",
+      "words": [
+        {
+          "id": 1,
+          "word": "allusive",
+          "synonym": "indirect",
+          "sentence": "Her allusive comments hinted at secrets she wouldn’t share."
+        },
+        {
+          "id": 2,
+          "word": "astute",
+          "synonym": "shrewd",
+          "sentence": "The astute investor spotted the opportunity early."
+        },
+        {
+          "id": 3,
+          "word": "commence",
+          "synonym": "begin",
+          "sentence": "The ceremony will commence at sunrise."
+        },
+        {
+          "id": 4,
+          "word": "convalescent",
+          "synonym": "recovering",
+          "sentence": "After surgery, she stayed in a convalescent home for rest."
+        },
+        {
+          "id": 5,
+          "word": "curb",
+          "synonym": "restrain",
+          "sentence": "He tried to curb his anger during the argument."
+        },
+        {
+          "id": 6,
+          "word": "decry",
+          "synonym": "condemn",
+          "sentence": "Activists decried the unfair treatment of workers."
+        },
+        {
+          "id": 7,
+          "word": "duress",
+          "synonym": "coercion",
+          "sentence": "He confessed under duress, not of his own free will."
+        },
+        {
+          "id": 8,
+          "word": "evoke",
+          "synonym": "elicit",
+          "sentence": "The painting evokes memories of my childhood."
+        },
+        {
+          "id": 9,
+          "word": "fawn",
+          "synonym": "flatter",
+          "sentence": "The employees fawned over their boss for promotion."
+        },
+        {
+          "id": 10,
+          "word": "fret",
+          "synonym": "worry",
+          "sentence": "Don’t fret about things beyond your control."
+        },
+        {
+          "id": 11,
+          "word": "glib",
+          "synonym": "superficial",
+          "sentence": "His glib remarks made him sound insincere."
+        },
+        {
+          "id": 12,
+          "word": "headstrong",
+          "synonym": "stubborn",
+          "sentence": "The headstrong teenager refused to listen to advice."
+        },
+        {
+          "id": 13,
+          "word": "intermittent",
+          "synonym": "sporadic",
+          "sentence": "We experienced intermittent rain throughout the day."
+        },
+        {
+          "id": 14,
+          "word": "ire",
+          "synonym": "anger",
+          "sentence": "His careless words drew the ire of his coworkers."
+        },
+        {
+          "id": 15,
+          "word": "languid",
+          "synonym": "sluggish",
+          "sentence": "After the meal, he felt languid and ready for a nap."
+        },
+        {
+          "id": 16,
+          "word": "languid",
+          "synonym": "sickly",
+          "sentence": "After the fever, she felt languid and weak."
+        },
+        {
+          "id": 17,
+          "word": "lull",
+          "synonym": "soothe",
+          "sentence": "The sound of rain lulled him to sleep."
+        },
+        {
+          "id": 18,
+          "word": "lull",
+          "synonym": "pause",
+          "sentence": "There was a lull in conversation before she spoke again."
+        },
+        {
+          "id": 19,
+          "word": "mettlesome",
+          "synonym": "spirited",
+          "sentence": "The mettlesome horse refused to be tamed."
+        },
+        {
+          "id": 20,
+          "word": "mollify",
+          "synonym": "pacify",
+          "sentence": "She tried to mollify the angry customer with an apology."
+        },
+        {
+          "id": 21,
+          "word": "neutralize",
+          "synonym": "counteract",
+          "sentence": "The medicine helped neutralize the acid in his stomach."
+        },
+        {
+          "id": 22,
+          "word": "nonplussed",
+          "synonym": "confused",
+          "sentence": "He looked nonplussed when asked the unexpected question."
+        },
+        {
+          "id": 23,
+          "word": "precipitous",
+          "synonym": "steep",
+          "sentence": "They climbed the precipitous path to the mountain top."
+        },
+        {
+          "id": 24,
+          "word": "precipitous",
+          "synonym": "sudden",
+          "sentence": "The company’s precipitous decline shocked investors."
+        },
+        {
+          "id": 25,
+          "word": "pretentious",
+          "synonym": "showy",
+          "sentence": "His pretentious attitude annoyed everyone at the party."
+        },
+        {
+          "id": 26,
+          "word": "profound",
+          "synonym": "deep",
+          "sentence": "Her speech had a profound effect on the audience."
+        },
+        {
+          "id": 27,
+          "word": "profound",
+          "synonym": "insightful",
+          "sentence": "He made a profound observation about human nature."
+        },
+        {
+          "id": 28,
+          "word": "propagate",
+          "synonym": "spread",
+          "sentence": "The scientist worked to propagate the rare plant species."
+        },
+        {
+          "id": 29,
+          "word": "recourse",
+          "synonym": "option",
+          "sentence": "If the plan fails, we have no other recourse."
+        },
+        {
+          "id": 30,
+          "word": "refute",
+          "synonym": "disprove",
+          "sentence": "She refuted the false claims with solid evidence."
+        },
+        {
+          "id": 31,
+          "word": "regress",
+          "synonym": "relapse",
+          "sentence": "After months of progress, he began to regress."
+        },
+        {
+          "id": 32,
+          "word": "repercussion",
+          "synonym": "consequence",
+          "sentence": "The scandal had serious repercussions for the company."
+        },
+        {
+          "id": 33,
+          "word": "replenish",
+          "synonym": "refill",
+          "sentence": "He stopped to replenish his water bottle during the hike."
+        },
+        {
+          "id": 34,
+          "word": "vigilant",
+          "synonym": "watchful",
+          "sentence": "Guards remained vigilant throughout the night."
+        }
+      ]
     }
   ]
 }
