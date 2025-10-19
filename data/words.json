@@ -235,7 +235,7 @@
         {
           "id": 5,
           "word": "barrage",
-          "synonym": "onslaught",
+          "synonym": "bombardment",
           "sentence": "The army faced a barrage of artillery fire."
         },
         {
@@ -1921,7 +1921,7 @@
         {
           "id": 25,
           "word": "nimble",
-          "synonym": "agile",
+          "synonym": "supple",
           "sentence": "The nimble dancer leaped across the stage effortlessly."
         },
         {
@@ -1969,7 +1969,7 @@
         {
           "id": 1,
           "word": "aberrant",
-          "synonym": "deviant",
+          "synonym": "atypical",
           "sentence": "His aberrant behavior at the meeting surprised everyone."
         },
         {
@@ -2083,7 +2083,7 @@
         {
           "id": 20,
           "word": "odious",
-          "synonym": "repulsive",
+          "synonym": "disgusting",
           "sentence": "The dictator’s odious crimes shocked the world."
         },
         {
