@@ -6,7 +6,7 @@ export default function Page() {
   return (
     <main className="min-h-screen p-6">
       <div className="mx-auto flex max-w-xl items-center justify-between pb-6">
-        <h1 className="text-xl font-semibold">WordWalk</h1>
+        <h1 className="text-xl font-semibold">WordWalk ⛰️</h1>
         <ThemeToggle />
       </div>
       <WordPlayer />
